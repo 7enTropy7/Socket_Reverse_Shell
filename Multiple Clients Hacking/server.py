@@ -6,7 +6,7 @@ from queue import Queue
 
 
 number_of_threads = 2
-job_number = [1,2] #1st thread listens and accepts requests. 2nd thread sends and manages connections
+job_number = [1,2]                     #1st thread listens and accepts requests. 2nd thread sends and manages connections
 queue = Queue()
 all_connections =[]
 all_address = []
@@ -163,36 +163,3 @@ def create_jobs():
 
 create_workers()
 create_jobs()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
